@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tournaments | GSF - Gambia Scrabble Federation</title>
+  <meta name="description" content="Explore Scrabble tournaments in The Gambia. Join competitions, view player lists, and register for championships across all skill levels.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tournaments - Gambia Scrabble Federation">
+  <meta property="og:description" content="Explore Scrabble tournaments in The Gambia">
+  <meta property="og:image" content="/assets/og-image.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gambiascrabble.org/tournaments">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tournaments - Gambia Scrabble Federation">
+  <meta name="twitter:description" content="Explore Scrabble tournaments in The Gambia">
+  <meta name="twitter:image" content="/assets/og-image.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+  
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <script>
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+</head>
+<body>
+  <!-- Top App Bar -->
+  <header class="md-top-app-bar" role="banner">
+    <a href="../index.html" class="md-logo" aria-label="Gambia Scrabble Federation Home">
+      <img src="../assets/logo.svg" alt="GSF Logo" style="height: 32px; width: auto;">
+    </a>
+    
+    <nav class="md-navigation" role="navigation" aria-label="Main navigation">
+      <a href="../index.html" class="md-nav-link">Home</a>
+      <a href="../about.html" class="md-nav-link">About</a>
+      <a href="index.html" class="md-nav-link active" aria-current="page">Tournaments</a>
+      <a href="../contact.html" class="md-nav-link">Contact</a>
+    </nav>
+    
+    <button class="md-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+      <span class="material-icons">menu</span>
+    </button>
+    
+    <button class="md-theme-toggle" aria-label="Toggle Dark/Light mode" title="Toggle Theme">
+      <span class="material-icons theme-icon">light_mode</span>
+    </button>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="md-mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="../index.html" class="md-nav-link">Home</a>
+    <a href="../about.html" class="md-nav-link">About</a>
+    <a href="index.html" class="md-nav-link active" aria-current="page">Tournaments</a>
+    <a href="../contact.html" class="md-nav-link">Contact</a>
+  </nav>
+
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="md-bottom-nav" role="navigation" aria-label="Bottom navigation">
+    <a href="../index.html" class="md-bottom-nav-item">
+      <span class="material-icons">home</span>
+      <span>Home</span>
+    </a>
+    <a href="../about.html" class="md-bottom-nav-item">
+      <span class="material-icons">info</span>
+      <span>About</span>
+    </a>
+    <a href="index.html" class="md-bottom-nav-item active" aria-current="page">
+      <span class="material-icons">emoji_events</span>
+      <span>Tournaments</span>
+    </a>
+    <a href="../contact.html" class="md-bottom-nav-item">
+      <span class="material-icons">contact_mail</span>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="md-main" role="main">
+    <!-- Tournaments Section -->
+    <section class="md-section-large">
+      <div class="md-container">
+        <h1 class="md-typescale-display-small" style="text-align: center; margin-bottom: 48px;">Tournaments</h1>
+        
+        <!-- Tournament Cards -->
+        <div class="md-grid" id="tournaments-grid">
+          <div class="md-grid-item md-grid-item-md-12 animate-on-scroll tournament-card" data-division="masters" style="max-width: 800px; margin: 0 auto;">
+            <div class="md-card md-card-elevated">
+              <div class="md-card-content">
+                <h3 class="tournament-title">WESPAC Preparation Tournament</h3>
+                <div class="tournament-date">June 27-28, 2025</div>
+                <div class="tournament-location">
+                  <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 4px;">location_on</span>
+                  Scrabble Headquarters, Brusubi
+                </div>
+                <p class="tournament-description">Final preparation tournament for WESPAC 2025. This intensive two-day event will feature multiple rounds of competitive play to prepare our top players for international competition. Registration closes June 26 at 4:00 PM.</p>
+                
+                <div class="tournament-chips">
+                  <span class="md-chip md-chip-filled" style="background-color: var(--md-sys-color-primary-container); color: var(--md-sys-color-on-primary-container);">MASTERS</span>
+                  <span class="md-chip" style="background-color: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container);">IN PROGRESS</span>
+                </div>
+              </div>
+              
+              <div class="md-card-actions">
+                <button class="md-button md-button-text toggle-players" data-target="players-1" aria-expanded="false">
+                  <span class="material-icons toggle-icon">expand_more</span>
+                  View Players
+                </button>
+                <a href="https://panafricanscrabble.com/tsh/nigeria/gmb17/html/" target="_blank" rel="noopener noreferrer" class="md-button md-button-tonal">
+                  <span class="material-icons">open_in_new</span>
+                  Tournament Link
+                </a>
+              </div>
+              
+              <div class="player-list" id="players-1" role="list">
+                <ul>
+                  <li>1. Ousman Conteh</li>
+                  <li>2. Ebou Njie Gabou</li>
+                  <li>3. Ebrima Nyass</li>
+                  <li>4. Alagie Bakary Darbo</li>
+                  <li>5. Musa Dibba</li>
+                  <li>6. Richard Sock</li>
+                  <li>7. Momodou Sowe</li>
+                  <li>8. Omar Malleh Jah</li>
+                  <li>9. Jimmy Coron</li>
+                  <li>10. Maju Bah</li>
+                  <li>11. Kebba Suso</li>
+                  <li>12. Babucarr Jallow</li>
+                  <li>13. Amadou Sambou</li>
+                  <li>14. Salifu Jabang</li>
+                  <li>15. Massanneh Bojang</li>
+                  <li>16. Kalilu Njie</li>
+                  <li>17. Alagie Kebbeh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tournament Information -->
+    <section class="md-section">
+      <div class="md-container">
+        <h2 class="md-typescale-headline-large" style="text-align: center; margin-bottom: 48px;">Tournament Information</h2>
+        <div class="md-grid">
+          <div class="md-grid-item md-grid-item-md-4 animate-on-scroll">
+            <div class="md-card md-card-elevated">
+              <div class="md-card-content">
+                <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                  <span class="material-icons" style="color: var(--md-sys-color-primary); font-size: 32px; margin-right: 16px;">assignment</span>
+                  <h3 class="md-typescale-title-large">Registration</h3>
+                </div>
+                <p class="md-typescale-body-medium">Register online or at our office. Early registration often includes discounts and guarantees your spot in competitive events.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="md-grid-item md-grid-item-md-4 animate-on-scroll">
+            <div class="md-card md-card-elevated">
+              <div class="md-card-content">
+                <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                  <span class="material-icons" style="color: var(--md-sys-color-primary); font-size: 32px; margin-right: 16px;">emoji_events</span>
+                  <h3 class="md-typescale-title-large">Prizes & Recognition</h3>
+                </div>
+                <p class="md-typescale-body-medium">Winners receive trophies, certificates, and ranking points. Top performers may qualify for national team selection and international competitions.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="md-grid-item md-grid-item-md-4 animate-on-scroll">
+            <div class="md-card md-card-elevated">
+              <div class="md-card-content">
+                <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                  <span class="material-icons" style="color: var(--md-sys-color-primary); font-size: 32px; margin-right: 16px;">rule</span>
+                  <h3 class="md-typescale-title-large">Rules & Format</h3>
+                </div>
+                <p class="md-typescale-body-medium">All tournaments follow official Scrabble rules. Formats vary by event - from Swiss system to round-robin depending on the competition level.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="md-footer" role="contentinfo">
+    <div class="md-container">
+      <div class="md-grid">
+        <div class="md-grid-item md-grid-item-md-4">
+          <h4>Quick Links</h4>
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About Us</a>
+          <a href="index.html">Tournaments</a>
+          <a href="../contact.html">Contact</a>
+        </div>
+        
+        <div class="md-grid-item md-grid-item-md-4">
+          <h4>Contact Information</h4>
+          <a href="mailto:info@gsf.com">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">email</span>
+            info@gsf.com
+          </a>
+          <a href="tel:+2207960771">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">phone</span>
+            +220 796 0771
+          </a>
+          <div style="color: var(--md-sys-color-on-surface-variant); margin-bottom: 8px;">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">location_on</span>
+            Scrabble Headquarters, Brusubi
+          </div>
+        </div>
+        
+        <div class="md-grid-item md-grid-item-md-4">
+          <h4>Follow Us</h4>
+          <a href="#" aria-label="Facebook">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">facebook</span>
+            Facebook
+          </a>
+          <a href="#" aria-label="Twitter">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">alternate_email</span>
+            Twitter
+          </a>
+          <a href="#" aria-label="Instagram">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">photo_camera</span>
+            Instagram
+          </a>
+          <a href="#" aria-label="YouTube">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">play_circle</span>
+            YouTube
+          </a>
+        </div>
+      </div>
+      
+      <div class="md-footer-legal">
+        &copy; 2025 Gambia Scrabble Federation. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- FAB -->
+  <button class="md-fab" aria-label="Back to top" id="back-to-top">
+    <span class="material-icons">keyboard_arrow_up</span>
+  </button>
+
+  <script src="../assets/script.js"></script>
+</body>
+</html>

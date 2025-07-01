@@ -1,0 +1,32 @@
+{
+  "name": "gambia-scrabble-federation",
+  "version": "2.0.0",
+  "description": "Official futuristic website of the Gambia Scrabble Federation",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["scrabble", "gambia", "tournament", "wordplay", "futuristic"],
+  "author": "Gambia Scrabble Federation",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "tsparticles": "^3.0.3",
+    "@tsparticles/engine": "^3.0.3",
+    "@tsparticles/basic": "^3.0.3",
+    "@tsparticles/interaction-external-grab": "^3.0.3",
+    "@tsparticles/interaction-external-push": "^3.0.3",
+    "@tsparticles/interaction-external-repulse": "^3.0.3",
+    "@tsparticles/interaction-particles-links": "^3.0.3",
+    "@tsparticles/move-base": "^3.0.3",
+    "@tsparticles/shape-circle": "^3.0.3",
+    "@tsparticles/updater-color": "^3.0.3",
+    "@tsparticles/updater-opacity": "^3.0.3",
+    "@tsparticles/updater-out-modes": "^3.0.3",
+    "@tsparticles/updater-size": "^3.0.3"
+  }
+}

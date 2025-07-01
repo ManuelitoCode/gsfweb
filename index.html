@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | GSF - Gambia Scrabble Federation</title>
+  <meta name="description" content="Gambia Scrabble Federation – Welcome to the official home of competitive Scrabble in The Gambia. Join tournaments, improve your skills, and connect with fellow word enthusiasts.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gambia Scrabble Federation - Official Home">
+  <meta property="og:description" content="Welcome to the official home of competitive Scrabble in The Gambia">
+  <meta property="og:image" content="/assets/og-image.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gambiascrabble.org">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gambia Scrabble Federation - Official Home">
+  <meta name="twitter:description" content="Welcome to the official home of competitive Scrabble in The Gambia">
+  <meta name="twitter:image" content="/assets/og-image.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  
+  <link rel="stylesheet" href="assets/style.css">
+  
+  <script>
+    // Apply saved theme immediately to prevent flash
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+</head>
+<body>
+  <!-- Top App Bar -->
+  <header class="md-top-app-bar" role="banner">
+    <a href="index.html" class="md-logo" aria-label="Gambia Scrabble Federation Home">
+      <img src="assets/logo.svg" alt="GSF Logo" style="height: 32px; width: auto;">
+    </a>
+    
+    <nav class="md-navigation" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="md-nav-link active" aria-current="page">Home</a>
+      <a href="about.html" class="md-nav-link">About</a>
+      <a href="tournaments/index.html" class="md-nav-link">Tournaments</a>
+      <a href="contact.html" class="md-nav-link">Contact</a>
+    </nav>
+    
+    <button class="md-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+      <span class="material-icons">menu</span>
+    </button>
+    
+    <button class="md-theme-toggle" aria-label="Toggle Dark/Light mode" title="Toggle Theme">
+      <span class="material-icons theme-icon">light_mode</span>
+    </button>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="md-mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html" class="md-nav-link active" aria-current="page">Home</a>
+    <a href="about.html" class="md-nav-link">About</a>
+    <a href="tournaments/index.html" class="md-nav-link">Tournaments</a>
+    <a href="contact.html" class="md-nav-link">Contact</a>
+  </nav>
+
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="md-bottom-nav" role="navigation" aria-label="Bottom navigation">
+    <a href="index.html" class="md-bottom-nav-item active" aria-current="page">
+      <span class="material-icons">home</span>
+      <span>Home</span>
+    </a>
+    <a href="about.html" class="md-bottom-nav-item">
+      <span class="material-icons">info</span>
+      <span>About</span>
+    </a>
+    <a href="tournaments/index.html" class="md-bottom-nav-item">
+      <span class="material-icons">emoji_events</span>
+      <span>Tournaments</span>
+    </a>
+    <a href="contact.html" class="md-bottom-nav-item">
+      <span class="material-icons">contact_mail</span>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="md-main" role="main">
+    <!-- Hero Section with Team Photo -->
+    <section class="md-hero" role="banner" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/image (7).png') center top/contain no-repeat, var(--md-sys-color-surface-container-low); min-height: 60vh; display: flex; align-items: center; position: relative; background-size: contain;">
+      <div class="md-container" style="position: relative; z-index: 2;">
+        <h1 class="md-typescale-display-medium" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Welcome to the Gambia Scrabble Federation</h1>
+        <p class="md-typescale-body-large" style="color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.7);">Championing wordplay excellence across The Gambia</p>
+        <a href="tournaments/index.html" class="md-button md-button-filled" role="button" style="margin-top: 24px;">
+          <span class="material-icons">emoji_events</span>
+          Explore Tournaments
+        </a>
+      </div>
+    </section>
+
+    <!-- What We Offer Section -->
+    <section class="md-section" id="highlights">
+      <div class="md-container">
+        <h2 class="md-typescale-headline-large" style="text-align: center; margin-bottom: 48px;">What We Offer</h2>
+        <div class="md-grid">
+          <div class="md-grid-item md-grid-item-md-4 animate-on-scroll">
+            <div class="md-card md-card-elevated">
+              <div class="md-card-content">
+                <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                  <span class="material-icons" style="color: var(--md-sys-color-primary); font-size: 32px; margin-right: 16px;">groups</span>
+                  <h3 class="md-typescale-title-large">Weekly Meetups</h3>
+                </div>
+                <p class="md-typescale-body-medium">Join our friendly community gatherings every Saturday for casual games and skill development in a welcoming environment.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="md-grid-item md-grid-item-md-4 animate-on-scroll">
+            <div class="md-card md-card-elevated">
+              <div class="md-card-content">
+                <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                  <span class="material-icons" style="color: var(--md-sys-color-primary); font-size: 32px; margin-right: 16px;">emoji_events</span>
+                  <h3 class="md-typescale-title-large">Ranked Tournaments</h3>
+                </div>
+                <p class="md-typescale-body-medium">Compete in official tournaments with national rankings and qualification opportunities for international competitions.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="md-grid-item md-grid-item-md-4 animate-on-scroll">
+            <div class="md-card md-card-elevated">
+              <div class="md-card-content">
+                <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                  <span class="material-icons" style="color: var(--md-sys-color-primary); font-size: 32px; margin-right: 16px;">public</span>
+                  <h3 class="md-typescale-title-large">International Tournament Experience</h3>
+                </div>
+                <p class="md-typescale-body-medium">Represent The Gambia on the international stage through prestigious competitions like WESPAC and other global Scrabble championships.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events Timeline -->
+    <section class="md-section-large" id="timeline">
+      <div class="md-container">
+        <h2 class="md-typescale-headline-large" style="text-align: center; margin-bottom: 48px;">Upcoming Events</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-node" tabindex="0" role="button" aria-label="View WESPAC Preparation Tournament details"></div>
+            <div class="timeline-content">
+              <h3>WESPAC Preparation Tournament</h3>
+              <div class="date">June 27-28, 2025</div>
+              <div class="location">
+                <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 4px;">location_on</span>
+                Scrabble Headquarters, Brusubi
+              </div>
+              <p>Final preparation tournament for WESPAC 2025. Two-day intensive competition to prepare our top players for international competition.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="md-section" id="contact">
+      <div class="md-container">
+        <h2 class="md-typescale-headline-large" style="text-align: center; margin-bottom: 48px;">Get In Touch</h2>
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <div class="success-message" id="success-message" role="alert">
+            <span class="material-icons" style="vertical-align: middle; margin-right: 8px;">check_circle</span>
+            Message sent successfully! We'll get back to you soon.
+          </div>
+          
+          <div class="md-text-field">
+            <input type="text" id="name" name="name" placeholder=" " required aria-describedby="name-error">
+            <label for="name">Full Name</label>
+            <div id="name-error" class="error-message" role="alert"></div>
+          </div>
+          
+          <div class="md-text-field">
+            <input type="email" id="email" name="email" placeholder=" " required aria-describedby="email-error">
+            <label for="email">Email Address</label>
+            <div id="email-error" class="error-message" role="alert"></div>
+          </div>
+          
+          <div class="md-text-field">
+            <select id="subject" name="subject" required aria-describedby="subject-error">
+              <option value="">Select a topic...</option>
+              <option value="tournament">Tournament Information</option>
+              <option value="membership">Membership Inquiry</option>
+              <option value="general">General Question</option>
+              <option value="media">Media/Press Inquiry</option>
+            </select>
+            <label for="subject">Subject</label>
+            <div id="subject-error" class="error-message" role="alert"></div>
+          </div>
+          
+          <div class="md-text-field">
+            <textarea id="message" name="message" placeholder=" " required aria-describedby="message-error"></textarea>
+            <label for="message">Your Message</label>
+            <div id="message-error" class="error-message" role="alert"></div>
+          </div>
+          
+          <button type="submit" class="md-button md-button-filled" style="width: 100%;">
+            <span class="material-icons">send</span>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="md-footer" role="contentinfo">
+    <div class="md-container">
+      <div class="md-grid">
+        <div class="md-grid-item md-grid-item-md-4">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="tournaments/index.html">Tournaments</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        
+        <div class="md-grid-item md-grid-item-md-4">
+          <h4>Contact Information</h4>
+          <a href="mailto:info@gsf.com">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">email</span>
+            info@gsf.com
+          </a>
+          <a href="tel:+2207960771">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">phone</span>
+            +220 796 0771
+          </a>
+          <div style="color: var(--md-sys-color-on-surface-variant); margin-bottom: 8px;">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">location_on</span>
+            Scrabble Headquarters, Brusubi
+          </div>
+        </div>
+        
+        <div class="md-grid-item md-grid-item-md-4">
+          <h4>Follow Us</h4>
+          <a href="#" aria-label="Facebook">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">facebook</span>
+            Facebook
+          </a>
+          <a href="#" aria-label="Twitter">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">alternate_email</span>
+            Twitter
+          </a>
+          <a href="#" aria-label="Instagram">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">photo_camera</span>
+            Instagram
+          </a>
+          <a href="#" aria-label="YouTube">
+            <span class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 8px;">play_circle</span>
+            YouTube
+          </a>
+        </div>
+      </div>
+      
+      <div class="md-footer-legal">
+        &copy; 2025 Gambia Scrabble Federation. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- FAB -->
+  <button class="md-fab" aria-label="Back to top" id="back-to-top">
+    <span class="material-icons">keyboard_arrow_up</span>
+  </button>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
